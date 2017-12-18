@@ -7,10 +7,9 @@
   <body>
     <!-- Commentaire -->
 <?php
-$number = 0;
-while($number <= 100){
-  echo '<p>On tient le bon bout'. ' ' .$number. '</p>';
-  $number = $number + 15;
+
+for ($i=0; $i <= 100 ; $i = $i + 15) {
+  echo 'On tient le bon bout'. ' ' . $i . ' ! ';
 }
 ?>
   </body>
